@@ -10,3 +10,11 @@ examples
 	git add . (this will also add all the file to the staging area) (just a another short hand form)
 
 
+now i am at a stage where i can commit all the files that i added to the staging environment or staging area
+
+commit command example
+	git commit file.name
+	git commit -m "Enter the message here"
+
+IF we want to commit directly without adding to the staging area or environment we can use this command "-a"
+	git commit -a -m "Enter the message here";
