@@ -18,3 +18,6 @@ commit command example
 
 IF we want to commit directly without adding to the staging area or environment we can use this command "-a"
 	git commit -a -m "Enter the message here";
+
+If we want to delete a branch after merging with the master branch we can use the command (-d)
+	git branch -d BranchNAme
