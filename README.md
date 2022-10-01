@@ -18,3 +18,21 @@ commit command example
 
 IF we want to commit directly without adding to the staging area or environment we can use this command "-a"
 	git commit -a -m "Enter the message here";
+
+Now we are learing about branches
+Basically what are branches?
+	Branches are like a new repository,in which we modify the code without effecting the main branch.
+	To create a branch we will use the "branch" command
+	git branch branchName
+	
+	To check that the new branch is created we will use the command
+	git branch
+
+	To checkout the new created branch we will use te command
+	git checkout branchName
+	git checkout -b branchName (this will create a branch as checkout it at the same time)
+
+	To switch between the branches and the master we will use the command
+	git switch branchName or master
+
+
